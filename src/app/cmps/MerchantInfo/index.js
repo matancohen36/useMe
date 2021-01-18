@@ -1,0 +1,1 @@
+export { MerchantInfo } from './MerchantInfo'
