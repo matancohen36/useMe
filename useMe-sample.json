@@ -1,0 +1,70 @@
+{
+    "user": [{
+        "_id": "u101",
+        "userName": "bla bla",
+        "isAdmin": false,
+        "fullName": "Matan Kalman Rubin",
+        "email": "admin@google.com",
+        "pwd": "123",
+        "reputation": 5,
+        "imgUrl": "https://coolpic.com"
+    }],
+    "services": [{
+        "_id": "s101",
+        "title": "Dima web developer",
+        "desc": "I can make websites using putin.js & ifLoop.js",
+        "deliveryTime": 172800000,
+        "rate": 5,
+        "price": {
+            "currency": "USD",
+            "amount": 100,
+            "payMeth": "paypal"
+        },
+        "imUrls": [
+            "https://coolpic.com",
+            "https://coolpic.com",
+            "https://coolpic.com"
+        ],
+        "tags": [
+            "programming",
+            "design"
+        ],
+        "owner": {
+            "_id": "u101",
+            "userName": "bla bla",
+            "imgUrl": "https://coolpic.com"
+        },
+        "reviews": [{
+            "_id": "r101",
+            "title": "I love it!",
+            "desc": "Made a beautiful site that reflects mother russia",
+            "rate": 4.9,
+            "byUser": {
+                "_id": "u101",
+                "userName": "bla bla",
+                "imgUrl": "https://coolpic.com"
+            }
+        }],
+        "location": {
+            "locName": "moscow",
+            "lat": "55.7558",
+            "lng": "37.6173"
+        }
+    }],
+    "order": [{
+        "_id": "o101",
+        "createdAt": 16105204000,
+        "dueDate": 16125254000,
+        "totalPrice": 100,
+        "status": "pending",
+        "buyer": {
+            "_id": "u101",
+            "userName": "bla bla",
+            "imgUrl": "https://coolpic.com"
+        },
+        "service": {
+            "_id": "s101",
+            "title": "Dima web developer"
+        }
+    }]
+}
