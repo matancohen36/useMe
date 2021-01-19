@@ -5,7 +5,7 @@ import { UserProfile } from './app/pages/UserProfile'
 import { SearchResults } from './app/pages/SearchResults'
 import { GigDetails } from './app/pages/GigDetails'
 import { GigEdit } from './app/pages/GigEdit'
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

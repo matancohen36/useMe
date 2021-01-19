@@ -3,8 +3,8 @@ import './UserProfile.scss'
 
 export const UserProfile = (props) => {
 
-    return ({
-
-    })
+    return (<div>
+        לפרופיללללללללללללללללללל
+    </div>)
 }
 
