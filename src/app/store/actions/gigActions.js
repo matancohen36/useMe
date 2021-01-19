@@ -1,4 +1,4 @@
-import { gigService } from '../../services/gigService'
+import { gigService } from '../../services/gig.service'
 
 // Action Dispatcher
 export function loadGigs(filterBy) {
