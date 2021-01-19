@@ -1,0 +1,1 @@
+export { GigDetails } from './GigDetails'

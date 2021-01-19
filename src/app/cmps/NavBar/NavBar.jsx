@@ -3,8 +3,6 @@ import './NavBar.scss'
 
 export const NavBar = (props) => {
 
-    return {
-
-    }
+    return (<header></header>)
 }
 

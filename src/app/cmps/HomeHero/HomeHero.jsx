@@ -3,8 +3,10 @@ import './HomeHero.scss'
 
 export const HomeHero = (props) => {
 
-    return {
-
-    }
+    return (
+        <div>
+            SUPERMANNNNNNNNN
+        </div>
+        )
 }
 

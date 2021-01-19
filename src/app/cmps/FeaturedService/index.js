@@ -1,1 +1,0 @@
-export { FeaturedService } from './FeaturedService'

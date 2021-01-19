@@ -14,9 +14,9 @@ const validOptions = {
 }
 
 const defaultOptions = {
-    dir: 'cmps',
+    dir: 'app/cmps',
     style: 'scss',
-    cmpType: 'class'
+    cmpType: 'func'
 }
 
 const cleanOption = (op) => {
